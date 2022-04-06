@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0A269627EDDBB200577C93 /* Unf1owApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A269527EDDBB200577C93 /* Unf1owApp.swift */; };
+		FA0A269827EDDBB200577C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A269727EDDBB200577C93 /* ContentView.swift */; };
+		FA0A269A27EDDBB300577C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0A269927EDDBB300577C93 /* Assets.xcassets */; };
+		FA0A269D27EDDBB300577C93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA0A269C27EDDBB300577C93 /* Preview Assets.xcassets */; };
+		FA0A26AF27EDDC5500577C93 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A26AE27EDDC5500577C93 /* HeroView.swift */; };
+		FA0A26B127EDF3F100577C93 /* FormulaOneContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A26B027EDF3F100577C93 /* FormulaOneContainerView.swift */; };
+		FA0A26B627EE066A00577C93 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0A26B527EE066A00577C93 /* ContainerView.swift */; };
+		FA66A11527F496C40030F234 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA66A10927F496C40030F234 /* TitilliumWeb-Italic.ttf */; };
+		FA66A11727F496C40030F234 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA66A10B27F496C40030F234 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		FA66A11827F496C40030F234 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA66A10C27F496C40030F234 /* OFL.txt */; };
+		FA66A11A27F496C40030F234 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA66A10E27F496C40030F234 /* TitilliumWeb-Light.ttf */; };
+		FA66A11C27F496C40030F234 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA66A11027F496C40030F234 /* TitilliumWeb-ExtraLight.ttf */; };
+		FA66A11E27F496C40030F234 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA66A11227F496C40030F234 /* TitilliumWeb-Black.ttf */; };
+		FA66A11F27F496C40030F234 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA66A11327F496C40030F234 /* TitilliumWeb-SemiBold.ttf */; };
+		FAD4100E27EE169000408EDC /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4100D27EE169000408EDC /* ArticleView.swift */; };
+		FAD4101D27EE1EAF00408EDC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4101C27EE1EAF00408EDC /* Font.swift */; };
+		FAD4102227EE21B800408EDC /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAD4101E27EE21B800408EDC /* TitilliumWeb-Bold.ttf */; };
+		FAD4102327EE21B800408EDC /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAD4101F27EE21B800408EDC /* TitilliumWeb-Regular.ttf */; };
+		FAD4102427EE21B800408EDC /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAD4102027EE21B800408EDC /* TitilliumWeb-SemiBold.ttf */; };
+		FAD4102527EE21B800408EDC /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAD4102127EE21B800408EDC /* TitilliumWeb-Light.ttf */; };
+		FAD4102727EE21ED00408EDC /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4102627EE21ED00408EDC /* Typography.swift */; };
+		FADB048927FD8B930013EBBB /* Unflow in Frameworks */ = {isa = PBXBuildFile; productRef = FADB048827FD8B930013EBBB /* Unflow */; };
+		FADB048B27FD8BE30013EBBB /* UnflowAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB048A27FD8BE30013EBBB /* UnflowAppearanceManager.swift */; };
+		FADB048D27FD93270013EBBB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADB048C27FD93270013EBBB /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA0A26A727EDDBE600577C93 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA0A269227EDDBB200577C93 /* Unf1ow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unf1ow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0A269527EDDBB200577C93 /* Unf1owApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unf1owApp.swift; sourceTree = "<group>"; };
+		FA0A269727EDDBB200577C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA0A269927EDDBB300577C93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA0A269C27EDDBB300577C93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA0A26AE27EDDC5500577C93 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		FA0A26B027EDF3F100577C93 /* FormulaOneContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaOneContainerView.swift; sourceTree = "<group>"; };
+		FA0A26B527EE066A00577C93 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		FA66A10927F496C40030F234 /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Italic.ttf"; sourceTree = "<group>"; };
+		FA66A10A27F496C40030F234 /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FA66A10B27F496C40030F234 /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FA66A10C27F496C40030F234 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		FA66A10D27F496C40030F234 /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FA66A10E27F496C40030F234 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		FA66A10F27F496C40030F234 /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		FA66A11027F496C40030F234 /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FA66A11127F496C40030F234 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		FA66A11227F496C40030F234 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		FA66A11327F496C40030F234 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA66A11427F496C40030F234 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		FAD4100D27EE169000408EDC /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		FAD4101927EE1E4F00408EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD4101C27EE1EAF00408EDC /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		FAD4101E27EE21B800408EDC /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		FAD4101F27EE21B800408EDC /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		FAD4102027EE21B800408EDC /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		FAD4102127EE21B800408EDC /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		FAD4102627EE21ED00408EDC /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		FADB048A27FD8BE30013EBBB /* UnflowAppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnflowAppearanceManager.swift; sourceTree = "<group>"; };
+		FADB048C27FD93270013EBBB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA0A268F27EDDBB200577C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADB048927FD8B930013EBBB /* Unflow in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0A268927EDDBB200577C93 = {
+			isa = PBXGroup;
+			children = (
+				FA0A269427EDDBB200577C93 /* Unf1ow */,
+				FA0A269327EDDBB200577C93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA0A269327EDDBB200577C93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A269227EDDBB200577C93 /* Unf1ow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA0A269427EDDBB200577C93 /* Unf1ow */ = {
+			isa = PBXGroup;
+			children = (
+				FAD4101A27EE1EA000408EDC /* Design System */,
+				FAD4100F27EE1E2E00408EDC /* Supporting Files */,
+				FA0A26AD27EDDC4600577C93 /* View */,
+				FA0A269527EDDBB200577C93 /* Unf1owApp.swift */,
+				FA0A269727EDDBB200577C93 /* ContentView.swift */,
+				FA0A269B27EDDBB300577C93 /* Preview Content */,
+			);
+			path = Unf1ow;
+			sourceTree = "<group>";
+		};
+		FA0A269B27EDDBB300577C93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A269C27EDDBB300577C93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA0A26AD27EDDC4600577C93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A26AE27EDDC5500577C93 /* HeroView.swift */,
+				FAD4100D27EE169000408EDC /* ArticleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA0A26B227EE065000577C93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A26B427EE065C00577C93 /* Containers */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA0A26B427EE065C00577C93 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A26B027EDF3F100577C93 /* FormulaOneContainerView.swift */,
+				FA0A26B527EE066A00577C93 /* ContainerView.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		FAD4100F27EE1E2E00408EDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A269927EDDBB300577C93 /* Assets.xcassets */,
+				FAD4101927EE1E4F00408EDC /* Info.plist */,
+				FAD4101027EE1E3A00408EDC /* Fonts */,
+				FADB048C27FD93270013EBBB /* Launch Screen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD4101027EE1E3A00408EDC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA66A10C27F496C40030F234 /* OFL.txt */,
+				FA66A11227F496C40030F234 /* TitilliumWeb-Black.ttf */,
+				FA66A11127F496C40030F234 /* TitilliumWeb-Bold.ttf */,
+				FA66A10D27F496C40030F234 /* TitilliumWeb-BoldItalic.ttf */,
+				FA66A11027F496C40030F234 /* TitilliumWeb-ExtraLight.ttf */,
+				FA66A10B27F496C40030F234 /* TitilliumWeb-ExtraLightItalic.ttf */,
+				FA66A10927F496C40030F234 /* TitilliumWeb-Italic.ttf */,
+				FA66A10E27F496C40030F234 /* TitilliumWeb-Light.ttf */,
+				FA66A10F27F496C40030F234 /* TitilliumWeb-LightItalic.ttf */,
+				FA66A11427F496C40030F234 /* TitilliumWeb-Regular.ttf */,
+				FA66A11327F496C40030F234 /* TitilliumWeb-SemiBold.ttf */,
+				FA66A10A27F496C40030F234 /* TitilliumWeb-SemiBoldItalic.ttf */,
+				FAD4101E27EE21B800408EDC /* TitilliumWeb-Bold.ttf */,
+				FAD4102127EE21B800408EDC /* TitilliumWeb-Light.ttf */,
+				FAD4101F27EE21B800408EDC /* TitilliumWeb-Regular.ttf */,
+				FAD4102027EE21B800408EDC /* TitilliumWeb-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FAD4101A27EE1EA000408EDC /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				FAD4101B27EE1EA800408EDC /* Typography */,
+				FA0A26B227EE065000577C93 /* Components */,
+				FADB048A27FD8BE30013EBBB /* UnflowAppearanceManager.swift */,
+			);
+			path = "Design System";
+			sourceTree = "<group>";
+		};
+		FAD4101B27EE1EA800408EDC /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				FAD4101C27EE1EAF00408EDC /* Font.swift */,
+				FAD4102627EE21ED00408EDC /* Typography.swift */,
+			);
+			path = Typography;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA0A269127EDDBB200577C93 /* Unf1ow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA0A26A027EDDBB300577C93 /* Build configuration list for PBXNativeTarget "Unf1ow" */;
+			buildPhases = (
+				FA0A268E27EDDBB200577C93 /* Sources */,
+				FA0A268F27EDDBB200577C93 /* Frameworks */,
+				FA0A269027EDDBB200577C93 /* Resources */,
+				FA0A26A727EDDBE600577C93 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unf1ow;
+			packageProductDependencies = (
+				FADB048827FD8B930013EBBB /* Unflow */,
+			);
+			productName = Unf1ow;
+			productReference = FA0A269227EDDBB200577C93 /* Unf1ow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA0A268A27EDDBB200577C93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FA0A269127EDDBB200577C93 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = FA0A268D27EDDBB200577C93 /* Build configuration list for PBXProject "Unf1ow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA0A268927EDDBB200577C93;
+			packageReferences = (
+				FADB048727FD8B930013EBBB /* XCRemoteSwiftPackageReference "unflow-ios-sdk" */,
+			);
+			productRefGroup = FA0A269327EDDBB200577C93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA0A269127EDDBB200577C93 /* Unf1ow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA0A269027EDDBB200577C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA66A11827F496C40030F234 /* OFL.txt in Resources */,
+				FA0A269D27EDDBB300577C93 /* Preview Assets.xcassets in Resources */,
+				FAD4102227EE21B800408EDC /* TitilliumWeb-Bold.ttf in Resources */,
+				FADB048D27FD93270013EBBB /* Launch Screen.storyboard in Resources */,
+				FA66A11E27F496C40030F234 /* TitilliumWeb-Black.ttf in Resources */,
+				FAD4102427EE21B800408EDC /* TitilliumWeb-SemiBold.ttf in Resources */,
+				FA66A11A27F496C40030F234 /* TitilliumWeb-Light.ttf in Resources */,
+				FAD4102327EE21B800408EDC /* TitilliumWeb-Regular.ttf in Resources */,
+				FAD4102527EE21B800408EDC /* TitilliumWeb-Light.ttf in Resources */,
+				FA66A11527F496C40030F234 /* TitilliumWeb-Italic.ttf in Resources */,
+				FA66A11727F496C40030F234 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				FA66A11F27F496C40030F234 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				FA0A269A27EDDBB300577C93 /* Assets.xcassets in Resources */,
+				FA66A11C27F496C40030F234 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA0A268E27EDDBB200577C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADB048B27FD8BE30013EBBB /* UnflowAppearanceManager.swift in Sources */,
+				FA0A26B627EE066A00577C93 /* ContainerView.swift in Sources */,
+				FAD4100E27EE169000408EDC /* ArticleView.swift in Sources */,
+				FAD4102727EE21ED00408EDC /* Typography.swift in Sources */,
+				FAD4101D27EE1EAF00408EDC /* Font.swift in Sources */,
+				FA0A269827EDDBB200577C93 /* ContentView.swift in Sources */,
+				FA0A269627EDDBB200577C93 /* Unf1owApp.swift in Sources */,
+				FA0A26B127EDF3F100577C93 /* FormulaOneContainerView.swift in Sources */,
+				FA0A26AF27EDDC5500577C93 /* HeroView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA0A269E27EDDBB300577C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA0A269F27EDDBB300577C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA0A26A127EDDBB300577C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Unf1ow/Preview Content\"";
+				DEVELOPMENT_TEAM = V636FA4NFP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Unf1ow/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unflow.samples.Unf1ow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA0A26A227EDDBB300577C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Unf1ow/Preview Content\"";
+				DEVELOPMENT_TEAM = V636FA4NFP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Unf1ow/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unflow.samples.Unf1ow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA0A268D27EDDBB200577C93 /* Build configuration list for PBXProject "Unf1ow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A269E27EDDBB300577C93 /* Debug */,
+				FA0A269F27EDDBB300577C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA0A26A027EDDBB300577C93 /* Build configuration list for PBXNativeTarget "Unf1ow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0A26A127EDDBB300577C93 /* Debug */,
+				FA0A26A227EDDBB300577C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FADB048727FD8B930013EBBB /* XCRemoteSwiftPackageReference "unflow-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:unflowhq/unflow-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.6.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FADB048827FD8B930013EBBB /* Unflow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADB048727FD8B930013EBBB /* XCRemoteSwiftPackageReference "unflow-ios-sdk" */;
+			productName = Unflow;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA0A268A27EDDBB200577C93 /* Project object */;
+}

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "unflow-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:unflowhq/unflow-ios-sdk.git",
+      "state" : {
+        "revision" : "664623d70a6c465d45b2d36e0029c7193bb75e3a",
+        "version" : "1.6.3"
+      }
+    }
+  ],
+  "version" : 2
+}
