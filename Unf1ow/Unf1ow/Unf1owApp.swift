@@ -46,6 +46,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
             )
         )
 
+        // Perform our initial sync
+        client?.sync()
+
         return true
     }
 }
