@@ -41,8 +41,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         // Set your own custom fonts inside the unflow semantic type system.
         client?.setCustomFonts(
             fonts: .init(
-                title: .custom("Titillium Web SemiBold", size: 33),
-                body: .custom("Titillium Web SemiBold", size: 16)
+                title: UIFont(name: "Titillium Web SemiBold", size: 33),
+                body: UIFont(name: "Titillium Web SemiBold", size: 16)
             )
         )
 

@@ -516,7 +516,7 @@
 			repositoryURL = "git@github.com:unflowhq/unflow-ios-sdk.git";
 			requirement = {
 				kind = exactVersion;
-				version = 1.6.3;
+				version = 1.12.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
